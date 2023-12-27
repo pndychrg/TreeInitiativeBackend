@@ -378,7 +378,7 @@
         "kind": 6,
         "importPath": "src.models.produce",
         "description": "src.models.produce",
-        "peekOfCode": "class Produce(db.Model):\n    __tablename__ = 'produce'\n    id = db.Column(db.Integer,primary_key=True)\n    tree_id = db.Column()",
+        "peekOfCode": "class Produce(db.Model):\n    __tablename__ = 'produce'\n    id = db.Column(db.Integer, primary_key=True)\n    tree_id = db.Column(db.Integer, db.ForeignKey('tree.id'))\n    name = db.Column(db.String(), nullable=False)\n    def toJson(self):\n        return {\n            \"id\": self.id,\n            \"tree_id\": self.tree_id,\n            \"name\": self.name",
         "detail": "src.models.produce",
         "documentation": {}
     },
@@ -387,7 +387,7 @@
         "kind": 6,
         "importPath": "src.models.tree",
         "description": "src.models.tree",
-        "peekOfCode": "class Tree(db.Model):\n    __tablename__ = 'trees'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(), nullable=False)\n    species = db.Column(db.String(), nullable=False)\n    height_meters = db.Column(db.Integer, nullable=False)\n    age_years = db.Column(db.Integer, nullable=False)\n    available_trees = db.Column(db.Integer, nullable=False)\n    total_trees = db.Column(db.Integer, nullable=False)\n    notes = db.Column(db.String())",
+        "peekOfCode": "class Tree(db.Model):\n    __tablename__ = 'tree'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(), nullable=False)\n    species = db.Column(db.String(), nullable=False)\n    height_meters = db.Column(db.Integer, nullable=False)\n    age_years = db.Column(db.Integer, nullable=False)\n    available_trees = db.Column(db.Integer, nullable=False)\n    total_trees = db.Column(db.Integer, nullable=False)\n    notes = db.Column(db.String())",
         "detail": "src.models.tree",
         "documentation": {}
     },

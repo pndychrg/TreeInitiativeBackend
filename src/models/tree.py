@@ -3,7 +3,7 @@ from extensions import db
 
 class Tree(db.Model):
 
-    __tablename__ = 'trees'
+    __tablename__ = 'tree'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(), nullable=False)
     species = db.Column(db.String(), nullable=False)
@@ -12,6 +12,9 @@ class Tree(db.Model):
     available_trees = db.Column(db.Integer, nullable=False)
     total_trees = db.Column(db.Integer, nullable=False)
     notes = db.Column(db.String())
+
+    # produce
+    produces = db.relationship("Produce", backref="Tree")
 
     def toJson(self):
         return {"id": 1,
