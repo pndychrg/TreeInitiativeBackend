@@ -1,0 +1,421 @@
+[
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "exc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "reqparse",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "JWTManager",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UserDB",
+        "importPath": "src.backend.user",
+        "description": "src.backend.user",
+        "isExtraImport": true,
+        "detail": "src.backend.user",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.models.user",
+        "description": "src.models.user",
+        "isExtraImport": true,
+        "detail": "src.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "userBlueprint",
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "isExtraImport": true,
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "revision = '82d488e6e4d8'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.82d488e6e4d8_",
+        "description": "migrations.versions.82d488e6e4d8_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.82d488e6e4d8_",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "peekOfCode": "def login():\n    username = request.args.get(\"username\")\n    password = request.args.get(\"password\")\n    if (username == None or password == None):\n        return \"Insufficient Data\"\n    response, status = userDB.loginUser(username=username, password=password)\n    if status:\n        token = create_access_token(\n            identity=response.toJson(), expires_delta=timedelta(hours=24))\n        return token, 200",
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "peekOfCode": "def register():\n    data = create_user_parser.parse_args()\n    # add validators here\n    response,status = userDB.createUser(\n        name=data['name'],username=data['username'],password=data['password']\n    )\n    if status:\n        token = create_access_token(\n            identity=response.toJson(), expires_delta=timedelta(hours=24))\n        return token,200",
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "userDB",
+        "kind": 5,
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "peekOfCode": "userDB = UserDB()\nuserBlueprint = Blueprint('user', __name__)\n# route for user login\n@userBlueprint.route('/login', methods=['GET'])\ndef login():\n    username = request.args.get(\"username\")\n    password = request.args.get(\"password\")\n    if (username == None or password == None):\n        return \"Insufficient Data\"\n    response, status = userDB.loginUser(username=username, password=password)",
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "userBlueprint",
+        "kind": 5,
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "peekOfCode": "userBlueprint = Blueprint('user', __name__)\n# route for user login\n@userBlueprint.route('/login', methods=['GET'])\ndef login():\n    username = request.args.get(\"username\")\n    password = request.args.get(\"password\")\n    if (username == None or password == None):\n        return \"Insufficient Data\"\n    response, status = userDB.loginUser(username=username, password=password)\n    if status:",
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "create_user_parser",
+        "kind": 5,
+        "importPath": "src.api.user.user",
+        "description": "src.api.user.user",
+        "peekOfCode": "create_user_parser = reqparse.RequestParser()\ncreate_user_parser.add_argument(\"name\",type=str,help=\"This field cannot be blank\",required=True)\ncreate_user_parser.add_argument(\"username\",type=str,help=\"This field cannot be blank\",required=True)\ncreate_user_parser.add_argument(\"password\",type=str,help=\"This field cannot be blank\",required=True)\n# route for user signup\n@userBlueprint.route('/register', methods=['GET', 'POST'])\ndef register():\n    data = create_user_parser.parse_args()\n    # add validators here\n    response,status = userDB.createUser(",
+        "detail": "src.api.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserDB",
+        "kind": 6,
+        "importPath": "src.backend.user",
+        "description": "src.backend.user",
+        "peekOfCode": "class UserDB:\n    def checkIfUserExists(self,username):\n        user = User.query.filter(User.username==username).first()\n        return user\n    def createUser(self,name,username,password):\n        # checking if a user with same username exists or not\n        existingUser = self.checkIfUserExists(username=username)\n        if existingUser:\n            return \"User already exists with same username\",False\n        try:",
+        "detail": "src.backend.user",
+        "documentation": {}
+    },
+    {
+        "label": "Produce",
+        "kind": 6,
+        "importPath": "src.models.produce",
+        "description": "src.models.produce",
+        "peekOfCode": "class Produce(db.Model):\n    __tablename__ = 'produce'\n    id = db.Column(db.Integer,primary_key=True)\n    tree_id = db.Column()",
+        "detail": "src.models.produce",
+        "documentation": {}
+    },
+    {
+        "label": "Tree",
+        "kind": 6,
+        "importPath": "src.models.tree",
+        "description": "src.models.tree",
+        "peekOfCode": "class Tree(db.Model):\n    __tablename__ = 'trees'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(), nullable=False)\n    species = db.Column(db.String(), nullable=False)\n    height_meters = db.Column(db.Integer, nullable=False)\n    age_years = db.Column(db.Integer, nullable=False)\n    available_trees = db.Column(db.Integer, nullable=False)\n    total_trees = db.Column(db.Integer, nullable=False)\n    notes = db.Column(db.String())",
+        "detail": "src.models.tree",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.models.user",
+        "description": "src.models.user",
+        "peekOfCode": "class User(db.Model):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    name = db.Column(db.String(),nullable=False)\n    username = db.Column(db.String(),nullable=False,unique=True)\n    password = db.Column(db.String(),nullable=False)\n    def __init__(self,name,username,password):\n        self.name = name\n        self.username = username\n        self.password = password",
+        "detail": "src.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "extensions",
+        "description": "extensions",
+        "peekOfCode": "db = SQLAlchemy()",
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def create_app():\n    app = Flask(__name__)\n    # configuration\n    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://pndychrg:pndychrg@localhost:5432/Trees'\n    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\n    app.config['SECRET_KEY']=\"TREEINITIATIVE\"\n    db.init_app(app=app)\n    migrate = Migrate(app,db)\n    jwt = JWTManager(app=app)\n    # from src.api.user import userBlueprint",
+        "detail": "main",
+        "documentation": {}
+    }
+]
